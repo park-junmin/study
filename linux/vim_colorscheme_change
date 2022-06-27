@@ -1,0 +1,10 @@
+#vim 테마 변경
+~/.vim/colors에 원하는 color scheme이 담긴 xxx.vim파일 복사
+mkdir ~/.vim/colors
+mv gruvbox.vim ~/.vim/colors/
+
+"colorscheme xxx" 와 같이 .vimrc에 복사한 테마 선언
+colorscheme gruvbox
+
+만약 여러 개의 colorscheme을 선언했다면 마지막에 선언된 테마가 우선 적용된다.
+또한 여러 개의 colorscheme을 선언 한 상태에서 vim에 들어가서 colorscheme "변경할 테마"를 해주면 테마가 변경된다.
