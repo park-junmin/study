@@ -7,4 +7,8 @@ mv gruvbox.vim ~/.vim/colors/
 colorscheme gruvbox
 
 만약 여러 개의 colorscheme을 선언했다면 마지막에 선언된 테마가 우선 적용된다.
-또한 여러 개의 colorscheme을 선언 한 상태에서 vim에 들어가서 colorscheme "변경할 테마"를 해주면 테마가 변경된다.
+또한 .vim/colors에 테마를 복사했다면, .vimrc에 선언하는게 아니라 직접 vim에 들어가서 colorscheme "변경할 테마"를 입력해서 테마를 바꿔 줄 수도 있다..
+
+추가적으로 테마의 일부분을 직접 수정할 수 도있다.
+나의 수정사항
+MatchParen      ctermfg=208  ctermbg=222
