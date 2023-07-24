@@ -1,2 +1,3 @@
+##
 intellianpush = "!f() { git push $1 HEAD:refs/for/$2; }; f"¬
 intellianpush2 = "!f() { git push $(git remote) HEAD:refs/for/$(git branch | awk '{print $2}'); }; f
